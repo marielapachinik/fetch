@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body class="background">
+    <header>
+        <h1>Bienvenidos a Bluechip IT</h1>
+        <h2>Completa el formulario para realizar la inscripcion a los cursos</h2>
+    
+        <form name="fvalida" class="formulario">
+        <table>
+        <tr >
+            <td>Nombre: </td>
+            <td><input type="text" name="nombre" size="15" maxlength="100" id="nom"></td>
+        </tr>
+        <tr>
+            <td>Apellido: </td>
+            <td><input type="text" name="apellido" size="15" maxlength="100" id="ape"></td>
+        </tr>
+        <tr>
+            <td>DNI: </td>
+            <td><input type="text" name="dni" size="15" maxlength="8" id="dni"></td>
+        </tr>
+        <tr>
+            <td>Correo Electronico:</td>
+            <td><input type="text" name="email" size="15" maxlength="100" id="crr"></td>
+        </tr>
+        <tr>
+               <td>Cursos:</td>
+               <td>
+               <select name=curso>
+               <option value="Elegir">Elegir
+               <option value="Desarrollo Web" id="job">Desarrollo Web
+               <option value="Javascript" id="job">Javascript
+               <option value=Reactjs id="job">React Js
+               <option value="Programacion Backend" id="job">Programacion Backend
+               <option value="Fullstack" id="job">Fullstack
+               </select>
+               </td>
+        </tr>
+        <tr class="button">
+            <td colspan="3"><input type="button" value="Enviar" id="btn"  onclick="valida_envia()"></td>
+        </tr>
+        </table>
+        </form>
+    <script src="./app-noveno-desafio.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+
+.background{
+    background-image: url("./imagenes/fondo.jpg");
+    background-repeat:non-repeat;
+}
+
+h1{
+    color:yellow;
+    text-align: center;
+    margin-top: 2%;
+}
+
+h2{
+    color:yellowgreen;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    
+}
+
+
+
+ul{
+    text-align: center;
+    margin-top: 2px;
+    
+   
+
+}
+
+ul a{
+    font-size: large;
+    color: peachpuff;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+.retorno{
+    text-align: center;
+    margin-top: 2%;
+
+}
+
+.retorno a{
+    font-size: large;
+    color: yellow;
+    text-decoration: none;
+    list-style: none;
+}
+
+.formulario{
+    margin-left: 35%;
+    align-items: center;
+    color: cornflowerblue;
+    margin-bottom: 1%;
+    background-color: transparent;
+}
+
+.button{
+    text-align: center;
+    margin-left: 50%;
+    border-color: blueviolet;
+
+}
+
+table{
+    background-color: transparent;
+}
+
